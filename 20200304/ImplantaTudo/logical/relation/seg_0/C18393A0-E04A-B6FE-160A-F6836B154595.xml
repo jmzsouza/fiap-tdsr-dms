@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_FUNC_DEPENDENTE" directorySegmentName="seg_0" id="C18393A0-E04A-B6FE-160A-F6836B154595">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 14:54:02 UTC</createdTime>
+<generatorID>DE0C4870-6755-4182-048C-5A036FD4DD13</generatorID>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<engineerTo>
+<item key="604A837F-0EA2-8D73-A91D-0CD8F33852F0" value="true"/>
+</engineerTo>
+<sourcePk>572E3287-37EB-45FF-6362-B7B1E146AABE</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>45321AC9-9F15-1503-84A0-A182BEF4CA80</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6D5E643A-77AC-5A90-BFD1-A8279734E392</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

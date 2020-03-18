@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_DEPTO_FUNC" directorySegmentName="seg_0" id="4154FE22-10F5-0871-4B45-DF17839BA99A">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 14:54:02 UTC</createdTime>
+<generatorID>2F4ABBCD-8B3A-9ED1-CCBF-6D31313ADB50</generatorID>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<engineerTo>
+<item key="604A837F-0EA2-8D73-A91D-0CD8F33852F0" value="true"/>
+</engineerTo>
+<sourcePk>3FA68850-20CB-D263-BA32-8A45406506A7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F1CDA8C4-D742-14D3-4D33-EAEB8AE86116</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>45321AC9-9F15-1503-84A0-A182BEF4CA80</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

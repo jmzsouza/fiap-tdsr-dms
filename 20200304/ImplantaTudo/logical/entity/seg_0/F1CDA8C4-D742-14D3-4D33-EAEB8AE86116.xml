@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F1CDA8C4-D742-14D3-4D33-EAEB8AE86116" name="T_SIP_DEPARTAMENTO">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 14:54:02 UTC</createdTime>
+<generatorID>953503C9-D736-72A9-53C2-64F7DC7E4F39</generatorID>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<engineerTo>
+<item key="604A837F-0EA2-8D73-A91D-0CD8F33852F0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_depto" id="3A248561-FB2D-33D6-487E-4B63B78856C9">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 14:54:02 UTC</createdTime>
+<generatorID>69646B4D-7315-9D51-3D41-F81D2AA52A35</generatorID>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<engineerTo>
+<item key="604A837F-0EA2-8D73-A91D-0CD8F33852F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_depto" id="E4F8DC94-4407-3799-EE0F-8AA527E42B30">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 14:54:02 UTC</createdTime>
+<generatorID>28EC4357-7FC4-9AE2-2587-55AB8DBA5DE3</generatorID>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<engineerTo>
+<item key="604A837F-0EA2-8D73-A91D-0CD8F33852F0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3FA68850-20CB-D263-BA32-8A45406506A7" name="PK_SIP_DEPARTAMENTO">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 14:54:02 UTC</createdTime>
+<generatorID>82DC7B5C-E931-6C19-B77B-998878EBCA21</generatorID>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<engineerTo>
+<item key="604A837F-0EA2-8D73-A91D-0CD8F33852F0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>3A248561-FB2D-33D6-487E-4B63B78856C9</newElementsIDs>
+<usedAttributes>
+<attributeRef>3A248561-FB2D-33D6-487E-4B63B78856C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BBC01151-6FF6-06D1-9C4C-429AA80DF566" name="T_SIP_IMPLANTACAO">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 02:00:53 UTC</createdTime>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_implantacao" id="4A49CCAB-4FBF-B73C-E19C-EC9F41B40A01">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 02:08:06 UTC</createdTime>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_projeto" id="64FB70B6-6C52-3A96-A785-A46535692CE7">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 02:24:58 UTC</createdTime>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="793C389F-45CB-1FFE-E5D2-D6F648C774C2" referredColumn="1C3A6AEB-B8FF-5AEC-CE2F-F6196E9A76D6"/>
+</associations>
+</Column>
+<Column name="nr_matricula" id="10DC0E37-88C1-0290-FE1F-5964F13E4448">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 02:29:44 UTC</createdTime>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3B2D50A9-E59C-2BD9-67BF-6B87DA554B83" referredColumn="634D5B0C-CF6F-142C-CF34-E983773E1019"/>
+</associations>
+</Column>
+<Column name="dt_entrada" id="D5D70780-C66B-A1C4-16C8-3E260AB0ED3F">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 02:09:03 UTC</createdTime>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_saida" id="4246FC3E-2D16-7BDD-0344-73B44E3759A7">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 02:09:03 UTC</createdTime>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BBE29F58-2A12-286B-C54F-A4425C071B24" name="PK_SIP_IMPLANTACAO">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 02:08:06 UTC</createdTime>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A49CCAB-4FBF-B73C-E19C-EC9F41B40A01"/>
+<colUsage columnID="64FB70B6-6C52-3A96-A785-A46535692CE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E5C3CFF3-8936-8185-6D98-F54106BA5390" name="FK_IMPLANTACAO_PROJETO">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 02:24:58 UTC</createdTime>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64FB70B6-6C52-3A96-A785-A46535692CE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA1670C9-D265-6122-2488-FB13A087C463" name="FK_IMPLANTACAO_FUNC">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 02:29:44 UTC</createdTime>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10DC0E37-88C1-0290-FE1F-5964F13E4448"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

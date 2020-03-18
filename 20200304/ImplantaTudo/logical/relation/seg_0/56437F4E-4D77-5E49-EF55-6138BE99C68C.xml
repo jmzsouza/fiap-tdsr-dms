@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_IMPLANTACAO_FUNC" directorySegmentName="seg_0" id="56437F4E-4D77-5E49-EF55-6138BE99C68C">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 14:54:02 UTC</createdTime>
+<generatorID>3B2D50A9-E59C-2BD9-67BF-6B87DA554B83</generatorID>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<engineerTo>
+<item key="604A837F-0EA2-8D73-A91D-0CD8F33852F0" value="true"/>
+</engineerTo>
+<sourcePk>572E3287-37EB-45FF-6362-B7B1E146AABE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>45321AC9-9F15-1503-84A0-A182BEF4CA80</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>39EC6596-B384-BE79-332B-B58383941D86</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

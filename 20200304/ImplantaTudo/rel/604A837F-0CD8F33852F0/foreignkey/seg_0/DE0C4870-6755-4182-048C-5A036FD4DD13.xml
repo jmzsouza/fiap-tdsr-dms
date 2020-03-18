@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DE0C4870-6755-4182-048C-5A036FD4DD13" containerWithKeyObject="801F585E-6305-416F-B516-5B6C215FB79A" localFKIndex="BBBB8611-CB6C-FEA4-18EE-0812E2366DA6" name="FK_FUNC_DEPENDENTE">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 02:02:52 UTC</createdTime>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<referredTableLongName>T_SIP_FUNCIONARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F1AF4F97-9896-2F88-A197-89ED929F9468</referredTableID>
+<keyObject>6E9355F8-1D53-267D-E8DD-B01463DEB3BF</keyObject>
+<referredKeyID>6E9355F8-1D53-267D-E8DD-B01463DEB3BF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nr_matricula</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

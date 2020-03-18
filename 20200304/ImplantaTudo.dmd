@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ImplantaTudo" id="8CF6787D-1106-6C92-10D5-368286A16A39" version="3.5">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 01:26:25 UTC</createdTime>
+<ownerDesignName>aula01</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8CF6787D-1106-6C92-10D5-368286A16A39</designId>
+</OSDM_Design>

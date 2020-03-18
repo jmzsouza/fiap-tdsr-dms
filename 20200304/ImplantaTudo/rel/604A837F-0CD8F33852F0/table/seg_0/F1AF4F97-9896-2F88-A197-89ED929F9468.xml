@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1AF4F97-9896-2F88-A197-89ED929F9468" name="T_SIP_FUNCIONARIO">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 01:41:41 UTC</createdTime>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_matricula" id="634D5B0C-CF6F-142C-CF34-E983773E1019">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 01:43:38 UTC</createdTime>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_depto" id="9DF8CFB5-DFE2-657A-AAEF-31BB263100D6">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 01:46:30 UTC</createdTime>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F4ABBCD-8B3A-9ED1-CCBF-6D31313ADB50" referredColumn="69646B4D-7315-9D51-3D41-F81D2AA52A35"/>
+</associations>
+</Column>
+<Column name="nm_funcionario" id="22E4BC20-6694-1F20-24C4-7682F94137DB">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 01:51:12 UTC</createdTime>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="AAA6271B-7D26-C45B-6C91-2D5FC01048B4">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 01:53:28 UTC</createdTime>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_admissao" id="17B7D0DD-6652-A617-D6A0-BF73ECC362EC">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 01:54:14 UTC</createdTime>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="F1DCFF3A-F3FE-17B1-D62D-E5B40E437F36">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 01:54:51 UTC</createdTime>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_salario" id="AF9E068D-C5CA-DF98-6996-481B4019654E">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 01:56:36 UTC</createdTime>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E9355F8-1D53-267D-E8DD-B01463DEB3BF" name="PK_SIP_FUNCIONARIO">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 01:43:38 UTC</createdTime>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="634D5B0C-CF6F-142C-CF34-E983773E1019"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E19155B5-BB85-86B1-6172-77AEFA167183" name="FK_DEPTO_FUNC">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-02-23 01:46:30 UTC</createdTime>
+<ownerDesignName>ImplantaTudo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9DF8CFB5-DFE2-657A-AAEF-31BB263100D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
