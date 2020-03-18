@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MEDICO" directorySegmentName="seg_0" id="2C946CBB-894A-23B1-DD9D-3620C5B36D61">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:14:38 UTC</createdTime>
+<generatorID>84E05CF9-D896-523E-A0FB-8C5DE565FC55</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<engineerTo>
+<item key="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" value="true"/>
+</engineerTo>
+<sourcePk>A4FBCA62-2DAE-A4C9-9612-B1177F1DE6B9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0311A4C8-B3C0-43E0-E278-D5FFEFFDBDDE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B9E14D8E-E96F-B9EB-142C-8F890B1DBD5C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8399AA5E-E45C-F797-7AAA-1A60613DDB74" name="T_STU_MEDICO">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:22:34 UTC</createdTime>
+<generatorID>0311A4C8-B3C0-43E0-E278-D5FFEFFDBDDE</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_medico" id="E6FB3F7D-DD12-2A9D-3C2D-F2BC097B35B1">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:22:34 UTC</createdTime>
+<generatorID>1A36F8B1-BAFA-8E85-7FC7-4EA294FA5931</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="crm_medico" id="0AF0B253-C51B-09AE-08F1-31FEBBE07351">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:22:34 UTC</createdTime>
+<generatorID>AFFD0436-A598-0ECA-F439-C4B5ED427714</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_medico" id="7C180DE3-B465-CCB6-DF94-227F697F8FD5">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:22:34 UTC</createdTime>
+<generatorID>3C3376E2-23E4-0683-BDEF-38648036DCD8</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_especialidade" id="3931C802-AA0C-BD1A-2D73-421C120B0271">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:22:34 UTC</createdTime>
+<generatorID>251CFD36-A04C-A4D2-15F0-0A5A74ABBB3D</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_salario" id="816A58A4-2BE8-5C96-3081-1FA44AD79A44">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:22:34 UTC</createdTime>
+<generatorID>272382BA-1638-B434-38C9-A83CAC9E7E38</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="30DBBE3E-7247-4E53-A9B3-ED00434E1987" name="PK_T_STU_MEDICO">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:22:34 UTC</createdTime>
+<generatorID>A4FBCA62-2DAE-A4C9-9612-B1177F1DE6B9</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6FB3F7D-DD12-2A9D-3C2D-F2BC097B35B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

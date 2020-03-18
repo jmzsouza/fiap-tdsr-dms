@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9E14D8E-E96F-B9EB-142C-8F890B1DBD5C" name="T_STU_TRIAGEM">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:14:38 UTC</createdTime>
+<generatorID>7C51FF18-BF27-FA90-0B49-36A9810596A3</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<engineerTo>
+<item key="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_triagem" id="19015DCB-9F3E-CAB9-96CD-F8CA3F47CE87">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:14:38 UTC</createdTime>
+<generatorID>7D8F5D72-AFF8-BDAA-F87E-36B687B97569</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<engineerTo>
+<item key="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_paciente" id="138BEF7B-1C33-0BC2-2965-33B525BFDE77">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:14:38 UTC</createdTime>
+<generatorID>50F1EEF6-C17F-8B04-6DEA-AC36A61C1600</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<engineerTo>
+<item key="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" value="true"/>
+</engineerTo>
+<referedAttribute>BCAA7D0E-F562-463A-982B-74F2C4AFF0AB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_medico" id="BD85B17F-EFB4-5457-3DF6-E7B5F31D0938">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:14:38 UTC</createdTime>
+<generatorID>2C946CBB-894A-23B1-DD9D-3620C5B36D61</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<engineerTo>
+<item key="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" value="true"/>
+</engineerTo>
+<referedAttribute>1A36F8B1-BAFA-8E85-7FC7-4EA294FA5931</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_unidade" id="C1BB1103-1F4B-7BCC-B95E-92D22D616781">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:14:38 UTC</createdTime>
+<generatorID>7BEED960-9D1E-83E6-2E43-1DA8FC01E276</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<engineerTo>
+<item key="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" value="true"/>
+</engineerTo>
+<referedAttribute>73A28B5A-8331-291B-BCD1-19DFF66A4BA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_triagem" id="90CF6FC1-DB0D-D77E-5187-E580E100748C">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:14:38 UTC</createdTime>
+<generatorID>5DA303F6-483B-9507-7CEF-96D28FB1AD2A</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<engineerTo>
+<item key="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6D95672B-0D56-DF67-5C41-78F799A04A8D" name="PK_T_STU_TRIAGEM">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:14:38 UTC</createdTime>
+<generatorID>79D37CAC-2ED9-0E6C-D3D1-0EDB95C71CAC</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<engineerTo>
+<item key="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>19015DCB-9F3E-CAB9-96CD-F8CA3F47CE87</newElementsIDs>
+<usedAttributes>
+<attributeRef>19015DCB-9F3E-CAB9-96CD-F8CA3F47CE87</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

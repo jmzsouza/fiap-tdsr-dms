@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="94B07F28-5708-0F54-A96D-071554B668AB" name="T_STU_UNIDADE">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:14:38 UTC</createdTime>
+<generatorID>011B171F-6896-75D8-FD57-F3D096628017</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<engineerTo>
+<item key="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_unidade" id="73A28B5A-8331-291B-BCD1-19DFF66A4BA3">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:14:38 UTC</createdTime>
+<generatorID>5E17BC47-1E3B-CE4E-E625-F2BEC9240F17</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<engineerTo>
+<item key="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_unidade" id="A07E36B2-6342-0B66-C05E-F33382B419F8">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:14:38 UTC</createdTime>
+<generatorID>C5296BF6-E819-6365-07AC-82DB039E01E2</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<engineerTo>
+<item key="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_fundacao" id="592F02FC-90C8-F743-5D9D-61DF2C502184">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:14:38 UTC</createdTime>
+<generatorID>EBF6B0B3-5F65-01F0-D95D-8DEF3ACC11B7</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<engineerTo>
+<item key="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_ddd" id="98670D86-A94B-5E45-6447-10AAFBC57EF4">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:20:00 UTC</createdTime>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<engineerTo>
+<item key="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="250DADC7-BCCC-E0D7-7A5B-93F33DD19FD8">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:14:38 UTC</createdTime>
+<generatorID>C58BA1C8-8775-93C4-D263-20A4D477DA79</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<engineerTo>
+<item key="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estado" id="2D85470A-A948-5EBB-92C7-413A86399E5C">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:14:38 UTC</createdTime>
+<generatorID>3E61EAD2-376A-5714-713B-E085F719EA93</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<engineerTo>
+<item key="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sg_estado" id="40430BEF-ADDB-03DA-E48F-AB2F4EC72FA1">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:14:38 UTC</createdTime>
+<generatorID>F10B5DAF-D5AC-4406-28BA-C0B507D562D3</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<engineerTo>
+<item key="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="F90379AA-856A-2B9D-A3F4-0DB90CB2D741">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:14:38 UTC</createdTime>
+<generatorID>42856ADA-4AF6-013B-665F-6E19213EA40D</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<engineerTo>
+<item key="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_bairro" id="2EA2CF81-886F-14D5-F3AA-B4306E7CD0D3">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:14:38 UTC</createdTime>
+<generatorID>78B8C8AC-297B-13EE-8A42-874D4462FDE6</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<engineerTo>
+<item key="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B9DEA54E-FC87-EF8E-6A4F-A8F396752C70" name="PK_T_STU_UNIDADE">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:14:38 UTC</createdTime>
+<generatorID>49C72974-3242-6BB2-4135-4CDAAC936B07</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<engineerTo>
+<item key="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>73A28B5A-8331-291B-BCD1-19DFF66A4BA3</newElementsIDs>
+<usedAttributes>
+<attributeRef>73A28B5A-8331-291B-BCD1-19DFF66A4BA3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

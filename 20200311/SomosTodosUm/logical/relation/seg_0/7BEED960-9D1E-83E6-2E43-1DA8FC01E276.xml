@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_UNIDADE" directorySegmentName="seg_0" id="7BEED960-9D1E-83E6-2E43-1DA8FC01E276">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:14:38 UTC</createdTime>
+<generatorID>C0377EAA-D1D1-9D4E-E5D0-4EF549DEAA3D</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<engineerTo>
+<item key="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" value="true"/>
+</engineerTo>
+<sourcePk>B9DEA54E-FC87-EF8E-6A4F-A8F396752C70</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>94B07F28-5708-0F54-A96D-071554B668AB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B9E14D8E-E96F-B9EB-142C-8F890B1DBD5C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1056383-8EA8-B676-43B5-3C1390F9602A" name="T_STU_UNIDADE">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:22:34 UTC</createdTime>
+<generatorID>94B07F28-5708-0F54-A96D-071554B668AB</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_unidade" id="2FE8C3A2-AFA6-5E21-8000-9F1DC5F56C60">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:22:34 UTC</createdTime>
+<generatorID>73A28B5A-8331-291B-BCD1-19DFF66A4BA3</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_unidade" id="B16DE741-C4BA-21B2-5C8C-46F1BA3FB03E">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:22:34 UTC</createdTime>
+<generatorID>A07E36B2-6342-0B66-C05E-F33382B419F8</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fundacao" id="B4D753BF-2749-C880-0C87-58BC875EF8A5">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:22:34 UTC</createdTime>
+<generatorID>592F02FC-90C8-F743-5D9D-61DF2C502184</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_ddd" id="4DE0776F-DC15-8144-4F2F-9E8CE7A902EE">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:22:34 UTC</createdTime>
+<generatorID>98670D86-A94B-5E45-6447-10AAFBC57EF4</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="484819AC-51FC-78C9-526C-4571F83105DC">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:22:34 UTC</createdTime>
+<generatorID>250DADC7-BCCC-E0D7-7A5B-93F33DD19FD8</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estado" id="D8EFDDAB-527B-4D95-A1CF-27F1EB156768">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:22:34 UTC</createdTime>
+<generatorID>2D85470A-A948-5EBB-92C7-413A86399E5C</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sg_estado" id="DCCEF7CF-0D20-92C6-02F9-D793566F75B4">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:22:34 UTC</createdTime>
+<generatorID>40430BEF-ADDB-03DA-E48F-AB2F4EC72FA1</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cidade" id="DDF7CA70-8471-9F7E-B019-2194488E357C">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:22:34 UTC</createdTime>
+<generatorID>F90379AA-856A-2B9D-A3F4-0DB90CB2D741</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_bairro" id="9F42765F-C970-51FA-09FB-CE3F3416811A">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:22:34 UTC</createdTime>
+<generatorID>2EA2CF81-886F-14D5-F3AA-B4306E7CD0D3</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6F72A28-9099-09C7-DB8A-0BB6EBC45FC2" name="PK_T_STU_UNIDADE">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-18 15:22:34 UTC</createdTime>
+<generatorID>B9DEA54E-FC87-EF8E-6A4F-A8F396752C70</generatorID>
+<ownerDesignName>SomosTodosUm</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FE8C3A2-AFA6-5E21-8000-9F1DC5F56C60"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="015531AF-4B1E-0A31-457D-B000E09AACD2" mainViewID="6DBCD771-01B7-04AD-E5B3-287D22D0EC2D">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-11 13:56:20 UTC</createdTime>
+<ownerDesignName>SOMOS_TODOS_UM</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

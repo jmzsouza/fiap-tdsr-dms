@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="7E86FCCC-FB21-1A41-51D7-1179F9D5179B" mainViewID="76404CFD-F912-FA31-4761-E832F23FF2CB">
+<createdBy>Diretor</createdBy>
+<createdTime>2020-03-11 13:56:24 UTC</createdTime>
+<ownerDesignName>SOMOS_TODOS_UM</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>
