@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="T_UNIVERSIDADE_CURSO" directorySegmentName="seg_0" id="5700ED70-7A2F-3C8F-FA97-61870747ACB4">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:40:04 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<sourcePk>54809C53-D895-8169-E778-441A03408AA1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>12C1611B-BB9D-CE4A-9AF2-56EDB3037C14</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A6E84B3A-7B7A-AA16-FDA3-064EB7432098</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

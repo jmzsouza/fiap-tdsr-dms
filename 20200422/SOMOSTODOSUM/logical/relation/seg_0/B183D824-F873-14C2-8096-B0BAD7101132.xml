@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_DISCIPLINA_DISC_BIBLIO" directorySegmentName="seg_0" id="B183D824-F873-14C2-8096-B0BAD7101132">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:54:50 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<sourcePk>3C098E76-AB21-8B9C-C1B7-B45B6122EF2D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>799FD0EA-2CCE-0F4C-1279-DBC46C4B3794</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>98199D65-5E9C-ED34-5D91-9FD45BC5EE61</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

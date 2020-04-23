@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AD8ABC2D-8C40-B74A-6FA3-E786AFD72866" name="T_SCU_UNIVERSIDADE">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>12C1611B-BB9D-CE4A-9AF2-56EDB3037C14</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_universidade" id="9ED0DBD9-760B-CF9C-7B1A-C5326549EB39">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>D8C034D1-962D-E3BD-9A5D-082930B1002D</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_universidade" id="892D8D25-0986-0799-0A38-1122B3ED7016">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>2E9EE233-A53B-048F-C2BF-16BE06496CBC</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fundacao" id="D67B60C3-46C3-56D2-75FD-0EA2E75575F8">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>13E504AE-722D-525D-19B6-C6728B3924B3</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="274E0FB6-4B93-5891-36D5-277C48A9366C">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>08D81298-DDF6-72E8-2D75-034ABE21D737</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="CEE22629-E173-CE2E-FA80-AC7D9424F93B">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>03C20A49-BFE7-AB27-CC34-178A1092A1A5</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11CE264D-BD9C-77CA-83BE-588036A50E9C" name="T_SCU_UNIVERSIDADE_PK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>54809C53-D895-8169-E778-441A03408AA1</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9ED0DBD9-760B-CF9C-7B1A-C5326549EB39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

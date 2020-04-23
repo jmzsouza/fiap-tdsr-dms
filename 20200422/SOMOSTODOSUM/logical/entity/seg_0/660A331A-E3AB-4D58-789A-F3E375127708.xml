@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="660A331A-E3AB-4D58-789A-F3E375127708" name="T_SCU_TELEFONE">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:33:52 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_telefone" id="C3561933-4A14-9FC2-3495-FED2F57ABEE0">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:34:02 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_universidade" id="8646AB3F-DA92-D862-D3D0-587593E226B2">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:39:19 UTC</createdTime>
+<generatorID>8B6F92A6-5D7B-8E94-C9AC-79F0A94721EC</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<referedAttribute>D8C034D1-962D-E3BD-9A5D-082930B1002D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddi" id="BC8E5D6F-2311-5357-3D6F-3522BBF984FE">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:36:08 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddd" id="2B8FA257-4994-3E9E-02DB-56BCA38FBC35">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:35:53 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="AA9BF118-FB07-0DFF-969E-3151072ADBE1">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:35:39 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_tipo" id="A0207E88-D518-C8FA-6B2D-E3445B9245F3">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:37:41 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="149CCF8A-67FD-DD76-FAF1-1FDA098EC392" name="T_SCU_TELEFONE PK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:35:38 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>C3561933-4A14-9FC2-3495-FED2F57ABEE0</newElementsIDs>
+<usedAttributes>
+<attributeRef>C3561933-4A14-9FC2-3495-FED2F57ABEE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

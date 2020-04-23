@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE51CBFA-E27F-F623-4A0C-859AD1A89CEE" name="T_SCU_CURSO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>A6E84B3A-7B7A-AA16-FDA3-064EB7432098</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_curso" id="7A1DC320-05F3-0505-DE1D-87CFC898294E">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>93F53FBC-ADB3-F6AF-2278-EA152DD4D449</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_universidade" id="7D36CAF1-15F9-6B6B-3FCD-BB0F7F61EC69">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>2AA02527-B36D-FA77-45A1-BD293EAEA539</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF598BAD-0FEF-E744-2233-2FBB3399D1A9" referredColumn="9ED0DBD9-760B-CF9C-7B1A-C5326549EB39"/>
+</associations>
+</Column>
+<Column name="nm_curso" id="59E3E00D-3E28-7BE0-C40B-219E98D627F9">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>DA1A3B9D-ADDD-9106-EB31-85A609E8CABE</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_horas_curso" id="E1634230-BB20-DDF3-BDF1-9319A95FBEFD">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>84C88FF8-06E1-06AD-A817-36EB0581F30A</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="qt_vagas_curso" id="0B2C90B6-BA69-49CD-CBBA-D7FBD6C57FF5">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>0BD983B9-1726-679C-22F8-038AC5842AC4</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6CE4C4AA-F476-0F96-A4C9-65CB1B7008F1" name="T_SCU_CURSO_PK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>5E51B2EB-082B-BAE8-0376-9406E1816F2A</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7A1DC320-05F3-0505-DE1D-87CFC898294E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="432AF121-5103-66D2-DF22-21DFC8A059C5" name="T_SCU_CURSO_T_SCU_UNIVERSIDADE_FK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>5700ED70-7A2F-3C8F-FA97-61870747ACB4</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D36CAF1-15F9-6B6B-3FCD-BB0F7F61EC69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

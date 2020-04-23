@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F40CD052-5549-990C-3602-694C286708A6" name="T_SCU_ENDERECO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:30:09 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_endereco" id="232CFFFE-5A6C-A1AB-1088-41E5512CED5C">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:30:19 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_universidade" id="8DE1CC35-EE57-B859-569E-3681F15588D2">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:38:57 UTC</createdTime>
+<generatorID>376CB3AD-AE25-C21C-4D6E-5E6DF0BF0385</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<referedAttribute>D8C034D1-962D-E3BD-9A5D-082930B1002D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_rua" id="C95682EB-3ED4-B5C3-98F4-438002269398">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:31:05 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_numero" id="E9B8094D-27DF-828F-6A1E-D739A5037DC5">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:31:29 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_bairro" id="3B3EDFFC-D183-94D8-D342-FEE6AEDC530A">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:31:55 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="77762CD8-288D-6672-BC08-3FBBE8573EE6">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:32:12 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estado" id="D0CBE276-7125-C4AC-EA62-FBC4D32A0304">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:32:34 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sg_estado" id="21F33582-C850-86C5-25C9-330890888FFB">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:32:59 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FD25A784-BEC5-2AC4-6811-9620650F21A2" name="T_SCU_ENDERECO PK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:38:18 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>232CFFFE-5A6C-A1AB-1088-41E5512CED5C</newElementsIDs>
+<usedAttributes>
+<attributeRef>232CFFFE-5A6C-A1AB-1088-41E5512CED5C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

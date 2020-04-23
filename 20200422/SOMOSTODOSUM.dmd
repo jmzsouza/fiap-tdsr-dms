@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="SOMOSTODOSUM" id="851E5D12-CE3B-591B-E82C-0959EE78BA33" version="3.5">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 00:48:45 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>851E5D12-CE3B-591B-E82C-0959EE78BA33</designId>
+</OSDM_Design>

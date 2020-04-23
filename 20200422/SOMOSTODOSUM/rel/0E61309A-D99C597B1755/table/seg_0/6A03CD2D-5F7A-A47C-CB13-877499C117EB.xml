@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A03CD2D-5F7A-A47C-CB13-877499C117EB" name="T_SCU_BIBLIOGRAFIA">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>BDD47FBA-FC07-8E06-8E6D-B687073B79C2</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_bibliografia" id="0174B60C-6A50-E8D8-CAC8-C0C51964198E">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>8261F9DB-EA30-1A53-4582-56472D244DF4</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_isbn13" id="8121ADF6-3943-C0BF-5E01-D6CB14A4AC57">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>33647C36-5494-3B7A-F562-4604A347CB5C</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_titulo" id="1BB89D78-126A-DEBB-C0BD-D6E18957296D">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>51D48A2B-B8E6-6B09-E160-0761C6E08861</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_autor" id="562A1460-C542-D7C2-6A5B-69B4B93A8C39">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>543FB6AE-D60A-F48D-8928-473C68C0142C</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_editora" id="F469C8F7-5118-CF97-0FD4-CC674410F3AE">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>E933A1C3-AB3F-7A75-F874-B056E7B92EC8</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_ano_publicacao" id="C8760EE6-7081-8A27-D067-7389BDEA4592">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>FDF4B8F3-3E33-D6D8-74F5-FCC16A09FD09</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A79A7155-17A2-B7D1-92CF-C9551D6AC63F" name="T_SCU_BIBLIOGRAFIA_PK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>5F1B7378-CE10-4221-A106-C78EF545A51A</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0174B60C-6A50-E8D8-CAC8-C0C51964198E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

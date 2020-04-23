@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A6E84B3A-7B7A-AA16-FDA3-064EB7432098" name="T_SCU_CURSO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:00:38 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_curso" id="93F53FBC-ADB3-F6AF-2278-EA152DD4D449">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:16:15 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_universidade" id="2AA02527-B36D-FA77-45A1-BD293EAEA539">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:40:04 UTC</createdTime>
+<generatorID>5700ED70-7A2F-3C8F-FA97-61870747ACB4</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<referedAttribute>D8C034D1-962D-E3BD-9A5D-082930B1002D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_curso" id="DA1A3B9D-ADDD-9106-EB31-85A609E8CABE">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:16:41 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_horas_curso" id="84C88FF8-06E1-06AD-A817-36EB0581F30A">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:17:10 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="qt_vagas_curso" id="0BD983B9-1726-679C-22F8-038AC5842AC4">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:18:40 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5E51B2EB-082B-BAE8-0376-9406E1816F2A" name="T_SCU_CURSO PK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:16:40 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>93F53FBC-ADB3-F6AF-2278-EA152DD4D449</newElementsIDs>
+<usedAttributes>
+<attributeRef>93F53FBC-ADB3-F6AF-2278-EA152DD4D449</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

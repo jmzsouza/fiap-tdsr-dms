@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_UNIVERSIDADE_ENDERECO" directorySegmentName="seg_0" id="376CB3AD-AE25-C21C-4D6E-5E6DF0BF0385">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 01:38:56 UTC</createdTime>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<engineerTo>
+<item key="0E61309A-2C88-3291-15AF-D99C597B1755" value="true"/>
+</engineerTo>
+<sourcePk>54809C53-D895-8169-E778-441A03408AA1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>12C1611B-BB9D-CE4A-9AF2-56EDB3037C14</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>F40CD052-5549-990C-3602-694C286708A6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

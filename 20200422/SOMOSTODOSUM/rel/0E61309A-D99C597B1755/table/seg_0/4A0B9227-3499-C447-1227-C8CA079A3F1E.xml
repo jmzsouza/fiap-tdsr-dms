@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4A0B9227-3499-C447-1227-C8CA079A3F1E" name="T_SCU_DISC_BIBLIO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>98199D65-5E9C-ED34-5D91-9FD45BC5EE61</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="sg_disciplina" id="3ABE89EE-AC3A-9E93-7B29-7AAFB2ED3722">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>23B8D734-5839-9EAA-5734-A698A7E89DB9</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE5D9776-CA65-2207-6D44-26F3FF3DA960" referredColumn="FAF7E657-B368-28E5-E90F-18B248DE6CBF"/>
+</associations>
+</Column>
+<Column name="cd_bibliografia" id="B63EB1B5-A489-C3AA-881F-CA4AB3464435">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>25315ABD-E71D-3D2C-D5D1-A8B19D777C61</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE6A7CDA-47DF-B38B-0E45-D75C4DA6EE8D" referredColumn="0174B60C-6A50-E8D8-CAC8-C0C51964198E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3012E614-7431-C714-09B7-05435845BCB3" name="T_SCU_DISC_BIBLIO_PK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>68D8C2C2-8ED1-4607-95A0-B48F1E74B9EE</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ABE89EE-AC3A-9E93-7B29-7AAFB2ED3722"/>
+<colUsage columnID="B63EB1B5-A489-C3AA-881F-CA4AB3464435"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA6E3574-9D1A-41AA-77B2-47AC23F48C9E" name="T_SCU_DISC_BIBLIO_T_SCU_BIBLIOGRAFIA_FK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>B8542A95-4B25-F8B1-9A85-2DB5136DB8C4</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B63EB1B5-A489-C3AA-881F-CA4AB3464435"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B009DBC1-FBD5-4061-7370-A56BB4C33940" name="T_SCU_DISC_BIBLIO_T_SCU_DISCIPLINA_FK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>B183D824-F873-14C2-8096-B0BAD7101132</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3ABE89EE-AC3A-9E93-7B29-7AAFB2ED3722"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BE6A7CDA-47DF-B38B-0E45-D75C4DA6EE8D" containerWithKeyObject="4A0B9227-3499-C447-1227-C8CA079A3F1E" localFKIndex="BA6E3574-9D1A-41AA-77B2-47AC23F48C9E" name="T_SCU_DISC_BIBLIO_T_SCU_BIBLIOGRAFIA_FK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:48:16 UTC</createdTime>
+<generatorID>B8542A95-4B25-F8B1-9A85-2DB5136DB8C4</generatorID>
+<ownerDesignName>SOMOSTODOSUM</ownerDesignName>
+<referredTableLongName>T_SCU_BIBLIOGRAFIA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6A03CD2D-5F7A-A47C-CB13-877499C117EB</referredTableID>
+<keyObject>A79A7155-17A2-B7D1-92CF-C9551D6AC63F</keyObject>
+<referredKeyID>A79A7155-17A2-B7D1-92CF-C9551D6AC63F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_bibliografia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
