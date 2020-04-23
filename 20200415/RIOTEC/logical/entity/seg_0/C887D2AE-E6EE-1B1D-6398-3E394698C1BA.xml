@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C887D2AE-E6EE-1B1D-6398-3E394698C1BA" name="T_NOTA_VENDA">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:26:45 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_nota" id="D1F15FA8-2AA6-2BDF-CACC-AC107898D53A">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:26:57 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_venda" id="D8339B87-9906-1868-0750-8C7B95838FAA">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:27:28 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_total_nota" id="92303A25-B0F5-30C8-4452-88AF7B3BD42D">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:28:00 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_empresa" id="0D9453A5-0CE7-3FD2-66F7-1CF68BF31145">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:29:19 UTC</createdTime>
+<generatorID>C59D7258-5532-D803-1CC5-8D92F59564E2</generatorID>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<referedAttribute>B017220E-F2DD-400D-69E7-DD3427BE9FA6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cliente" id="D9D2BD8F-726E-C7BC-96B0-1A1D51D17D0D">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:30:11 UTC</createdTime>
+<generatorID>505DDB3F-6B36-3B0D-319B-2C558E59295A</generatorID>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<referedAttribute>B5E89BC3-9645-237B-E94D-415067E6E7B3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="50866D8D-D688-3A72-AAA6-378BFFB64BA9" name="T_NOTA_VENDA PK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:27:26 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D1F15FA8-2AA6-2BDF-CACC-AC107898D53A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

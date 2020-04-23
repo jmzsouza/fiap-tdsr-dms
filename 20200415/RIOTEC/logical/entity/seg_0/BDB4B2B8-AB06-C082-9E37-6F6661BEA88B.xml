@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BDB4B2B8-AB06-C082-9E37-6F6661BEA88B" name="T_CLIENTE">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:19:06 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cliente" id="B5E89BC3-9645-237B-E94D-415067E6E7B3">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:19:13 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cliente" id="33B2E0BA-3ADC-A364-2669-BB64D730C9FA">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:19:34 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="7C8E53C6-D967-ED92-BADA-B12FDA01D160">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:20:03 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_bairro" id="B1A71449-DDB0-6FAA-4D14-C73140242B4C">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:20:24 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_municipio" id="F9417D80-2432-F3F7-0318-5D13A4F69E86">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:20:48 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="497D1624-F76B-3BB9-55FC-934AB0617E26">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:21:11 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnpj" id="9A3D73BC-ABF1-4A48-542A-6887056ED1FF">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:21:39 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="BBFE9B1C-7AD7-1538-5060-997C0606B631">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:22:15 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_inscr_estadual" id="F965F65D-BCEA-B7DF-0C44-7E43963FCDEC">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:22:32 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_inscr_municipal" id="76057ECF-DCE4-F7F9-A3C9-C581C7377176">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:22:58 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5470FE9D-9C83-7C25-3A71-3DB647A57D1D" name="T_CLIENTE PK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:19:32 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B5E89BC3-9645-237B-E94D-415067E6E7B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

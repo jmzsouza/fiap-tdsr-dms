@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="22ED47E5-14B5-B514-0F74-C6C1B3738EC4" name="T_EMPRESA">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:12:55 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_empresa" id="08BD289F-37F9-B98E-1DD7-7DF6E37DD527">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:15:44 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_razao_social" id="6B00E86A-624E-1FD8-D4C4-184CE53A834D">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:15:44 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="781CE053-EF65-72B8-9AE3-9B3B353ACB85">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:15:44 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="D9451DB7-B8E2-00F3-845A-04335730A5AA">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:15:44 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA8419E3-710A-7C38-9486-EAF6D4B3968B" name="T_EMPRESA_PK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:15:44 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08BD289F-37F9-B98E-1DD7-7DF6E37DD527"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

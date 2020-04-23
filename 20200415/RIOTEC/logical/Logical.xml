@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DC2A7FD2-D855-F8BB-9EEB-15DBB314604F" mainViewID="AF3AB1BE-0AD7-C4A2-ADB8-108933B76907">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:12:38 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

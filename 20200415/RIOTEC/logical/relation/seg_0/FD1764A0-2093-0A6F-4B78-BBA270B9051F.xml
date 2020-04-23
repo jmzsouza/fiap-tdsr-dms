@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_EMPRESA_PRODUTO" directorySegmentName="seg_0" id="FD1764A0-2093-0A6F-4B78-BBA270B9051F">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-23 03:25:09 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<sourcePk>D804AD7F-AA67-B966-3D11-240E02377F16</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EF4E797A-F96F-6AA1-090F-132528B2979C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>81E71847-3567-C5B4-928F-6A3BB11C2B80</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="RIOTEC" id="CE65690E-D696-98BD-EBA3-61C9599A390E" version="3.5">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:12:38 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>CE65690E-D696-98BD-EBA3-61C9599A390E</designId>
+</OSDM_Design>

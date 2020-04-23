@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="4B39201B-55F6-A53C-614A-685E5672C255">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:12:38 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

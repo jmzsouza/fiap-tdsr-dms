@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_PRODUTO_NOTA" directorySegmentName="seg_0" id="9419D13A-C121-2363-6F51-89CF68A969FC">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-04-16 02:30:50 UTC</createdTime>
+<ownerDesignName>RIOTEC</ownerDesignName>
+<engineerTo>
+<item key="22DF2DD1-6FC9-36C6-4DA8-4E693C9FEADD" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>81E71847-3567-C5B4-928F-6A3BB11C2B80</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C887D2AE-E6EE-1B1D-6398-3E394698C1BA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
