@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_FORM_PGTO_ITEM" directorySegmentName="seg_0" id="23669365-B021-7D4F-A0CD-90FEAEF82FF6">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:45:06 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<sourcePk>240D8F9C-C239-27F1-C6B3-DDFEE60F8978</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CA8CFEA2-C4F7-AF68-37C9-B2A09C9D2385</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2F9EBAB7-48F2-76E1-861D-996722C6B369</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

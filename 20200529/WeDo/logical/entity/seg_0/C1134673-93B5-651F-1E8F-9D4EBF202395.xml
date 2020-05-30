@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C1134673-93B5-651F-1E8F-9D4EBF202395" name="T_SLD_EMBALAGEM">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 17:10:14 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_embalagem" id="307C7332-F8C9-A010-F000-1D2490DB85F8">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 17:10:55 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_tipo_embalagem" id="4086CCB5-74EA-63AC-1732-87E32333FAF7">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 23:09:05 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_embalagem" id="E1775B75-D7F6-78A9-461D-F1FAD32A43B2">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 17:11:11 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_mater_embalagem" id="F2F02D75-447B-6A3A-D1EA-5D1EE1B043BE">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 23:09:33 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="37F5A781-257D-20A3-43C2-FF4F1B2B6E37" name="T_SLD_EMBALAGEM PK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 17:11:10 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>307C7332-F8C9-A010-F000-1D2490DB85F8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

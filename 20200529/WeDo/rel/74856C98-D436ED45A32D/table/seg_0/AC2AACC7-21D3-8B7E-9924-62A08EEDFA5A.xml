@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC2AACC7-21D3-8B7E-9924-62A08EEDFA5A" name="T_SLD_TELEFONE">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:56:53 UTC</createdTime>
+<generatorID>815E21B2-8C09-A8B0-4291-BF6D486CD009</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_telefone" id="B9B96B8B-00E9-079E-CB94-C8AE9AF4A7DB">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:56:53 UTC</createdTime>
+<generatorID>0A9F8573-FD57-9201-B95B-D20C42471F42</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_cliente" id="A1CA7A3B-AA24-EC0D-8400-69823CDA3419">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 03:24:40 UTC</createdTime>
+<generatorID>4EE8882E-46C2-99A1-39F4-D579DAE0EE61</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="31AC1D65-0523-50FC-9454-CC3C09E16288" referredColumn="3E7CB715-9764-627C-0291-119FC372CA58"/>
+</associations>
+</Column>
+<Column name="nr_ddi" id="FD77661B-ECEC-07D5-27D7-0D954DBBCD05">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:56:53 UTC</createdTime>
+<generatorID>2911B01E-D010-A6F3-57FF-CBD4A0121C5D</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_ddd" id="8AAAB379-82C2-629A-AD59-20F60578D4B2">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:56:53 UTC</createdTime>
+<generatorID>9F768F49-A286-32F8-730B-D533B287E5ED</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="66A994C1-56BC-82FC-CE1B-129A59F699A5">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:56:53 UTC</createdTime>
+<generatorID>1B74047D-2B4E-225E-BB04-0925684EF5E2</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_tipo" id="205DB10A-381A-D385-F9D8-6E6A8CD6AC0D">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:56:53 UTC</createdTime>
+<generatorID>9FC8E441-64DA-856E-D4F5-44244F2276ED</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DEA63DE5-5ADC-D705-74E5-C18CE45C35CC" name="T_SLD_TELEFONE_PK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:56:53 UTC</createdTime>
+<generatorID>BC16D69F-7BF4-52C4-9FBA-8670B60151DF</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9B96B8B-00E9-079E-CB94-C8AE9AF4A7DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7F74E6D-EC17-5866-607C-B7FBB09B485E" name="T_SLD_TELEFONE_CLIENTE_FK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 03:24:40 UTC</createdTime>
+<generatorID>BA14D4FE-DDCA-B607-D469-3FE23A15ABA2</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1CA7A3B-AA24-EC0D-8400-69823CDA3419"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90CE679F-A19B-1204-90E8-D29A97D1DD8A" name="T_SLD_LISTA_DESEJOS">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:56:53 UTC</createdTime>
+<generatorID>98CCA164-D9AC-E32C-2CED-1FC73495C7CC</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_lista_desejos" id="AEDA15E3-B08F-8220-5D7C-AE8C8D12EE2E">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:56:53 UTC</createdTime>
+<generatorID>FB53F8FB-C11B-54B1-FC57-DAFE4D86D5DD</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_cliente" id="02CFBB9D-028F-A914-00B9-A59985158C84">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 03:24:40 UTC</createdTime>
+<generatorID>75F398F7-1EBD-89F7-1270-EC6561D83033</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0B90999-ED69-E1DE-ABC3-B110D83AC5CF" referredColumn="3E7CB715-9764-627C-0291-119FC372CA58"/>
+</associations>
+</Column>
+<Column name="dt_cad_lista" id="2DE4DEDF-25DD-FD5B-9340-CEF7AAF9F086">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:56:53 UTC</createdTime>
+<generatorID>A8D1FFF5-5553-E96B-C980-6C51B7D495DF</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_total_pagar" id="20A29620-D8C4-1D7D-EFDF-A8C22B7E86CF">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:56:53 UTC</createdTime>
+<generatorID>A2E75241-DA1D-CB3A-34AA-AF6359B94860</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E82EFCBB-3F30-14F6-015A-9EF8D0A0ACCF" name="T_SLD_LISTA_DESEJOS_PK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:56:53 UTC</createdTime>
+<generatorID>DBD1ADD4-840A-4C82-9F67-43BE4D2F51DE</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEDA15E3-B08F-8220-5D7C-AE8C8D12EE2E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DB83625A-5A0D-A700-52C5-C1F98730B9FF" name="T_SLD_LISTA_CLIENTE_FK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 03:24:40 UTC</createdTime>
+<generatorID>FA3F9867-5C76-C8A5-D48A-FAFD05C799EA</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="02CFBB9D-028F-A914-00B9-A59985158C84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

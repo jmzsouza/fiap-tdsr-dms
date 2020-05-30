@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="64B7C7CB-206F-49D3-28BE-CF5862B767EF" containerWithKeyObject="1C509A1B-C70B-474E-8F24-95FC5CE12E6D" localFKIndex="CFA48406-9E1A-7BA9-E2F4-DB5F71285253" name="T_SLD_ITEM_LISTA_DESEJOS_FK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:56:53 UTC</createdTime>
+<generatorID>4C606665-71BE-C4F7-D048-67AB8641F1D3</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<referredTableLongName>T_SLD_LISTA_DESEJOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>90CE679F-A19B-1204-90E8-D29A97D1DD8A</referredTableID>
+<keyObject>E82EFCBB-3F30-14F6-015A-9EF8D0A0ACCF</keyObject>
+<referredKeyID>E82EFCBB-3F30-14F6-015A-9EF8D0A0ACCF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_lista_desejos</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

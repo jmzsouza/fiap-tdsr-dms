@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="WeDo" id="54660E80-E585-0314-7F9D-A3A7121129F2" version="3.5">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 16:14:33 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>54660E80-E585-0314-7F9D-A3A7121129F2</designId>
+</OSDM_Design>

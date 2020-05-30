@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8DF035C-D417-8408-B7E8-E6618EAA8CEE" name="T_SLD_FORMA_PGTO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:56:53 UTC</createdTime>
+<generatorID>CA8CFEA2-C4F7-AF68-37C9-B2A09C9D2385</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_forma_pgto" id="9B94FD40-464E-343C-F97C-8391079DFAC9">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:56:53 UTC</createdTime>
+<generatorID>AAABCC70-3668-E4AA-F410-409983607D1E</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_forma_pgto" id="77EFC40C-1B64-D7AE-BADD-75CFBB46F3B8">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:56:53 UTC</createdTime>
+<generatorID>098FF0DE-9542-82E1-C205-40E01CB43617</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92A9AEE7-6A7C-5EBF-5C26-FFC019BDE844" name="T_SLD_FORMA_PGTO_PK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:56:53 UTC</createdTime>
+<generatorID>240D8F9C-C239-27F1-C6B3-DDFEE60F8978</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B94FD40-464E-343C-F97C-8391079DFAC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

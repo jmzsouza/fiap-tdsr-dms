@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F7296CB6-EA5E-4052-7FA5-BA83BCD15699" containerWithKeyObject="162B7AB9-546B-0A63-D42E-D8397D6B7EEE" localFKIndex="8C24BC26-6731-110A-4953-AEAF18549E7B" name="T_SLD_PRODUTO_EMBALAGEM_FK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:56:53 UTC</createdTime>
+<generatorID>8E1730E6-5127-D432-C432-B2DAA28F3D3E</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<referredTableLongName>T_SLD_EMBALAGEM</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C28EB465-D6AF-C8FB-4027-8DEA97FF7280</referredTableID>
+<keyObject>226A0DA7-08D0-4D04-4809-1771A39E10FD</keyObject>
+<referredKeyID>226A0DA7-08D0-4D04-4809-1771A39E10FD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_embalagem</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

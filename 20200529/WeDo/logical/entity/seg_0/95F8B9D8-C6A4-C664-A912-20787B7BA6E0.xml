@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="95F8B9D8-C6A4-C664-A912-20787B7BA6E0" name="T_SLD_ENDERECO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 17:39:50 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cep_endereco" id="427952AF-5BFC-17A4-0F33-9BC48AC8AC3C">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 17:39:50 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<importedID>232CFFFE-5A6C-A1AB-1088-41E5512CED5C</importedID>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_rua" id="FDC6FE34-6B4C-42B1-FE3F-B1D5D885FBB3">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 17:39:50 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<importedID>C95682EB-3ED4-B5C3-98F4-438002269398</importedID>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_endereco" id="C8BF1297-0F81-A490-6097-8703780B995C">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 17:39:50 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<importedID>E9B8094D-27DF-828F-6A1E-D739A5037DC5</importedID>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_bairro" id="90DB8DC4-BC05-53FA-C527-C443BA410A1F">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 17:39:50 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<importedID>3B3EDFFC-D183-94D8-D342-FEE6AEDC530A</importedID>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cidade" id="17C102D7-465B-01E3-05FD-4AA80CB6F99B">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 17:39:50 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<importedID>77762CD8-288D-6672-BC08-3FBBE8573EE6</importedID>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estado" id="4559A262-F8F6-1AA9-6FF2-FD86255CCBB8">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 17:39:50 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<importedID>D0CBE276-7125-C4AC-EA62-FBC4D32A0304</importedID>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sg_estado" id="E6C77836-DE18-8133-04ED-5ADFAAB770C2">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 17:39:50 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<importedID>21F33582-C850-86C5-25C9-330890888FFB</importedID>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5C86D3C2-370F-4057-11DF-8937B48E9ED2" name="T_SLD_ENDERECO PK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 17:39:50 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>427952AF-5BFC-17A4-0F33-9BC48AC8AC3C</newElementsIDs>
+<usedAttributes>
+<attributeRef>427952AF-5BFC-17A4-0F33-9BC48AC8AC3C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

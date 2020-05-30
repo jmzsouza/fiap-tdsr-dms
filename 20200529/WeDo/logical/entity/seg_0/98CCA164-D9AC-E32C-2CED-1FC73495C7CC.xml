@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="98CCA164-D9AC-E32C-2CED-1FC73495C7CC" name="T_SLD_LISTA_DESEJOS">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 20:48:32 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_lista_desejos" id="FB53F8FB-C11B-54B1-FC57-DAFE4D86D5DD">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 20:48:45 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cliente" id="75F398F7-1EBD-89F7-1270-EC6561D83033">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 03:22:26 UTC</createdTime>
+<generatorID>FA3F9867-5C76-C8A5-D48A-FAFD05C799EA</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<referedAttribute>F3BC4B15-5A48-00FB-7E3A-9B697D636F19</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_cad_lista" id="A8D1FFF5-5553-E96B-C980-6C51B7D495DF">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 20:51:02 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_total_pagar" id="A2E75241-DA1D-CB3A-34AA-AF6359B94860">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 21:13:28 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DBD1ADD4-840A-4C82-9F67-43BE4D2F51DE" name="T_SLD_LISTA_DESEJOS PK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 21:07:47 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FB53F8FB-C11B-54B1-FC57-DAFE4D86D5DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

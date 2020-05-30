@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7AEF1BC0-4A52-AF18-0714-22C4E6291F09" name="T_SLD_IMG_PROD">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 21:52:13 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_img_produto" id="B04B285C-CCC7-3B55-6F50-B0E74AD967ED">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 21:52:44 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_produto" id="7B3F4BBC-7DD6-58C0-E980-4521676F0054">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 21:55:34 UTC</createdTime>
+<generatorID>FFED8DB1-AC17-7779-FE07-5431D4FBD2B3</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<referedAttribute>0955FC24-E815-8C8F-50B9-AABDD7994A0A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ft_imagem" id="8F3D151F-A566-6842-DE6B-E278CAE4537D">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 21:53:38 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_imagem" id="354CC201-0F28-8CA0-85CC-CF1746E0B98F">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:40:55 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_imagem" id="7E70D1E0-27DC-472C-0A69-DB2BD2B61473">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 21:53:11 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="00584969-552A-2084-9235-87554B4E7E75" name="T_SLD_IMG_PRODUTO PK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 21:53:10 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>B04B285C-CCC7-3B55-6F50-B0E74AD967ED</newElementsIDs>
+<usedAttributes>
+<attributeRef>B04B285C-CCC7-3B55-6F50-B0E74AD967ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

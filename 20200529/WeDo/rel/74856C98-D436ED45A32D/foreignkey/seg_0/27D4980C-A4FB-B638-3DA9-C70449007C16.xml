@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="27D4980C-A4FB-B638-3DA9-C70449007C16" containerWithKeyObject="1C509A1B-C70B-474E-8F24-95FC5CE12E6D" localFKIndex="21F8F47F-59B8-D32D-C35E-76F841501111" name="T_SLD_ITEM_LISTA_FORMA_PGTO_FK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 02:56:53 UTC</createdTime>
+<generatorID>23669365-B021-7D4F-A0CD-90FEAEF82FF6</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<referredTableLongName>T_SLD_FORMA_PGTO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F8DF035C-D417-8408-B7E8-E6618EAA8CEE</referredTableID>
+<keyObject>92A9AEE7-6A7C-5EBF-5C26-FFC019BDE844</keyObject>
+<referredKeyID>92A9AEE7-6A7C-5EBF-5C26-FFC019BDE844</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_forma_pgto</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

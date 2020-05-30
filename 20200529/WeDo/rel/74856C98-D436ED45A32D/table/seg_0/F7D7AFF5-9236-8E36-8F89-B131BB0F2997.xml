@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F7D7AFF5-9236-8E36-8F89-B131BB0F2997" name="T_SLD_CLIENTE">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 03:24:40 UTC</createdTime>
+<generatorID>0A915A52-854A-C931-252C-310EBDEA4824</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<ordsAlias>t_sld_clientev1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_cliente" id="3E7CB715-9764-627C-0291-119FC372CA58">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 03:24:40 UTC</createdTime>
+<generatorID>F3BC4B15-5A48-00FB-7E3A-9B697D636F19</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cliente" id="4774F401-E918-4400-0D0A-F07DF3F2F6F1">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 03:24:40 UTC</createdTime>
+<generatorID>DC901057-39B6-AC76-343E-5F35B853640F</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_sexo" id="CA5F4246-2AA7-51CF-F95E-BC5E705D51F0">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 03:24:40 UTC</createdTime>
+<generatorID>12745EB6-99FD-AE4A-BB82-9C52BA1990AA</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="1B8957AA-D7E0-8A55-0668-D13409522197">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 03:24:40 UTC</createdTime>
+<generatorID>8687247F-DA8D-3966-3779-AB061BE4EAC6</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="2B4AF29B-1ED3-E634-483E-C37D6AF06F7D">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 03:24:40 UTC</createdTime>
+<generatorID>7DE26E9F-8345-B237-5DCF-2D2264924EF3</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="2A823923-6CB6-A788-A791-2E4B7CC0D8C4">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 03:24:40 UTC</createdTime>
+<generatorID>FE374E20-038F-354E-6E86-53A240B942EF</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_cad_cliente" id="C7C87AB9-74B4-EFC1-8175-16B0BCABF47D">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 03:24:40 UTC</createdTime>
+<generatorID>49648C43-5D0F-0F0E-55C4-113558884F34</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_estado_civil" id="8478A351-CEF6-B294-B701-15899317C224">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 03:24:40 UTC</createdTime>
+<generatorID>AAC7A542-6595-BD8F-944C-C93D7D4ED896</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_escolaridade" id="84A1DDD0-9342-769B-6419-EA6CA01D7EAC">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 03:24:40 UTC</createdTime>
+<generatorID>8F01625C-9B8B-6C17-7331-85D3A4CB5A82</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="77723048-4904-39A7-F5F6-110E89AE2E89" name="T_SLD_CLIENTE_PK">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-29 03:24:40 UTC</createdTime>
+<generatorID>0FCB3351-0AC3-E286-CFB1-0E1D0C646519</generatorID>
+<ownerDesignName>WeDo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E7CB715-9764-627C-0291-119FC372CA58"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

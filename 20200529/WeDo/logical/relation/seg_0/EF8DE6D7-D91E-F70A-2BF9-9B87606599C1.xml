@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_ENDERECO_CLI_END" directorySegmentName="seg_0" id="EF8DE6D7-D91E-F70A-2BF9-9B87606599C1">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-05-22 19:44:44 UTC</createdTime>
+<ownerDesignName>WeDo</ownerDesignName>
+<engineerTo>
+<item key="74856C98-333C-340B-6397-D436ED45A32D" value="true"/>
+</engineerTo>
+<sourcePk>5C86D3C2-370F-4057-11DF-8937B48E9ED2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>95F8B9D8-C6A4-C664-A912-20787B7BA6E0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E1F2864C-177E-EC1A-0C9C-122B9A1C84DD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
