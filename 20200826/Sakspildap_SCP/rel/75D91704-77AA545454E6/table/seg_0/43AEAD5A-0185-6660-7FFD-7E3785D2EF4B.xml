@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43AEAD5A-0185-6660-7FFD-7E3785D2EF4B" name="T_SCP_ESTADO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>F4DDCB6C-813C-323E-D522-35A81D46B953</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_estado" id="BFD19D68-4788-B696-EE6B-57B6D8EAE1C0">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>BBB27C2D-ED2B-3D82-A8B1-659EC081F595</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estado" id="616641C0-1898-AC0A-1080-A5AA6F54CDC6">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>CC829D7B-CD4D-4DF2-5156-54B0F37ED08F</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sg_estado" id="B678DDD8-A923-33B7-C0A0-B5FEFA56526A">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>F45CB5FE-2881-15B8-A76F-A65486DFB0F7</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="21FD74E6-1007-7260-4586-12EAE04DDB3E" name="PK_SCP_ESTADO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>5A000EF0-5776-F76C-0073-60116334029A</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFD19D68-4788-B696-EE6B-57B6D8EAE1C0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

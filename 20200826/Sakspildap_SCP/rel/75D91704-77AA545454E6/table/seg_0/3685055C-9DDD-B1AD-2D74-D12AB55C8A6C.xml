@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3685055C-9DDD-B1AD-2D74-D12AB55C8A6C" name="T_SCP_ESTADO_CIVIL">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>C3B6E3B7-57C7-B8AA-DCE8-E6DB2986B9A3</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_estado_civil" id="F69C70FA-2145-AD1D-A1DE-F10D6347BEBB">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>163515FD-81E1-E5B5-9198-1F1D9F7D8B43</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_estado_civil" id="1E66D7C2-7CF6-92F4-B3D0-CDF79D7AB661">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>7BE866A9-13FF-7904-CCE1-662AA251632C</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E0D76191-3A69-EFCE-9B34-3237CB269B30" name="PK_SCP_ESTADO_CIVIL">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>D574E384-5726-AA9D-96F3-3347D56D1FAE</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F69C70FA-2145-AD1D-A1DE-F10D6347BEBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_GENERO_FUNCIONARO" directorySegmentName="seg_0" id="D11EC8C4-216B-3047-401E-9567183B9F3A">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 17:34:21 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<sourcePk>4119DCD2-87B9-D4FF-F78B-565BD031EFF4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>60C354A1-3A5B-7123-2C0D-F13F922C8E28</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>53E20835-E457-A6E4-53E9-D45FD181B6C4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7ABEDB9A-DF52-57C2-B74C-ABACFEFAC9BE" name="T_SCP_FUNC_FONE">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 17:36:26 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_funcionario" id="9AF99815-BB39-B828-64AF-DB7385FF930B">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 17:48:39 UTC</createdTime>
+<generatorID>A8ED08D0-23E7-2FAE-A541-8B4B4F81E99B</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<referedAttribute>4EFAA5CD-A84B-9980-6459-EE1272948F2A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ddd" id="3A1D12A9-28FB-F7EF-B975-69035557D6E8">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 17:44:31 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="2201E204-01C3-DEEC-CD42-79987170DE1F">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 17:45:03 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_fone" id="6F867DE7-D348-C996-57E2-ED36C7358063">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 17:44:03 UTC</createdTime>
+<generatorID>64CF71AA-40C1-0948-BBF1-C067D3BE220F</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<referedAttribute>4A2761D4-0F62-8FF6-F862-D35476CC2D16</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_ramal" id="94702206-285F-6772-A9F1-BF2B50E0160E">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 17:47:43 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1121019B-9BA1-E2D3-E0C1-DEB7FA153E63" name="PK_SCP_FUNC_FONE">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 17:44:54 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>3A1D12A9-28FB-F7EF-B975-69035557D6E8,2201E204-01C3-DEEC-CD42-79987170DE1F,A8ED08D0-23E7-2FAE-A541-8B4B4F81E99B</newElementsIDs>
+<usedAttributes>
+<attributeRef>3A1D12A9-28FB-F7EF-B975-69035557D6E8</attributeRef>
+<attributeRef>2201E204-01C3-DEEC-CD42-79987170DE1F</attributeRef>
+<attributeRef>9AF99815-BB39-B828-64AF-DB7385FF930B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

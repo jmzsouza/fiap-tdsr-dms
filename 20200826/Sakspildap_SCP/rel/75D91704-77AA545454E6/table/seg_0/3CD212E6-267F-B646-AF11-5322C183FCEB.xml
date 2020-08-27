@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3CD212E6-267F-B646-AF11-5322C183FCEB" name="T_SCP_ENDERECO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>B6AECD58-7A9B-E039-A6DD-8D2C43D13704</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_cep" id="B40A141A-E1E8-18DD-08A3-39BB21FD91DB">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>BF72C4A2-9ED6-F1CD-34E3-6B0635DCFA98</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_bairro" id="6FB8F272-1602-C825-E73E-AB713B5EBD12">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>BC2FC086-32FB-45A5-DEC8-CEBFC2EA0CF3</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="93B4D379-99C5-CE40-6986-161975D49CFB" referredColumn="A4671CCC-DC2F-1E14-5FCC-1BAEE45E1B96"/>
+</associations>
+</Column>
+<Column name="cd_tipo_logradouro" id="38B8C2BB-4FC9-0C68-A235-9B0E6DA733B8">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>F8EC2DDA-C363-DCCD-33B9-5B7041F60DA3</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD0F8EB6-9465-DA28-4FF0-DC077C8985F6" referredColumn="17D796BD-2551-8C2B-4231-566E0D27A42A"/>
+</associations>
+</Column>
+<Column name="ds_logradouro" id="774DFA75-B99B-9F00-8A1C-903BEB9B3BC0">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>4DDF224C-EF42-1A54-C51F-844F35BC15B1</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24731308-1157-B8BD-2D73-D407E23D604B" name="PK_SCP_ENDERECO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>9AE10D8B-B027-D025-69AE-C99F197FBDCA</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B40A141A-E1E8-18DD-08A3-39BB21FD91DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="39823019-2609-CD09-06A2-4ADB003EF8ED" name="FK_BAIRRO_ENDERECO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:51 UTC</createdTime>
+<generatorID>760ED49A-B8A5-F1E5-1AD4-489F2E060D92</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6FB8F272-1602-C825-E73E-AB713B5EBD12"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8BEF3F09-4538-03B5-1250-C071172917FA" name="FK_LOGRADOURO_ENDERECO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:51 UTC</createdTime>
+<generatorID>7FAD2CB9-09B3-21B7-E50C-FE02338C8539</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38B8C2BB-4FC9-0C68-A235-9B0E6DA733B8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

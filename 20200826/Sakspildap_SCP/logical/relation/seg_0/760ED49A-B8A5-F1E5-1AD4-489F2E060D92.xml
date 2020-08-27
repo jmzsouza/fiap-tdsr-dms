@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_BAIRRO_ENDERECO" directorySegmentName="seg_0" id="760ED49A-B8A5-F1E5-1AD4-489F2E060D92">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 17:15:58 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<sourcePk>4E6A185E-BE7C-73F4-239A-1FD3344DC53B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CD516FBE-E9B6-D0DE-0100-EAA1E00F0804</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B6AECD58-7A9B-E039-A6DD-8D2C43D13704</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

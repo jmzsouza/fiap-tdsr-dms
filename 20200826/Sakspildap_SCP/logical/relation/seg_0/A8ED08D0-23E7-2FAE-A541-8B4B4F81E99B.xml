@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_FUNCIONARIO_FONE" directorySegmentName="seg_0" id="A8ED08D0-23E7-2FAE-A541-8B4B4F81E99B">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 17:48:39 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<sourcePk>889D3EE1-C6BD-B802-05A2-F0DF394BE1C0</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>53E20835-E457-A6E4-53E9-D45FD181B6C4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7ABEDB9A-DF52-57C2-B74C-ABACFEFAC9BE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

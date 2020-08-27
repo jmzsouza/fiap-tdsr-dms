@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_CIDADE_BAIRRO" directorySegmentName="seg_0" id="EA8E5C0F-9132-ADF9-D031-965F5EC88503">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 17:12:17 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<sourcePk>F1C429FC-FEB4-D7E3-2D7C-A12F47A99EFA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D6E3F40A-3D53-5146-5AFB-68A4D778D6AE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CD516FBE-E9B6-D0DE-0100-EAA1E00F0804</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

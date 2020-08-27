@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB004A12-7277-4689-3906-5A520B760E0A" name="T_SCP_BAIRRO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>CD516FBE-E9B6-D0DE-0100-EAA1E00F0804</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_bairro" id="A4671CCC-DC2F-1E14-5FCC-1BAEE45E1B96">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>24786CF4-8995-25C1-0F67-493DD54B405C</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_cidade" id="324FB95F-818C-CF89-DCFC-884DC0BA4EB5">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>B3809AA0-B59A-8A1B-A282-2C645E9D928A</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C0DEA59-A96A-C0AC-1EB7-1B417CC2BFF1" referredColumn="E4227F01-FC38-2464-2C7B-7FBB4678A864"/>
+</associations>
+</Column>
+<Column name="nm_bairro" id="70C578DB-CBA2-B17F-C493-FEEC0D39AAA2">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>EFD8B524-0677-C033-4035-50DE7B5EEE93</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="191951AF-D76D-E83E-2AC4-857025B39F03" name="PK_SCP_BAIRRO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>4E6A185E-BE7C-73F4-239A-1FD3344DC53B</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A4671CCC-DC2F-1E14-5FCC-1BAEE45E1B96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DA04A86-265E-454E-F093-10EEDD8F27B0" name="FK_CIDADE_BAIRRO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:51 UTC</createdTime>
+<generatorID>EA8E5C0F-9132-ADF9-D031-965F5EC88503</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="324FB95F-818C-CF89-DCFC-884DC0BA4EB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

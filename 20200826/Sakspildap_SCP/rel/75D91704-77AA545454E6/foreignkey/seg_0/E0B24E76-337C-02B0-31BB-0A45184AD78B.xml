@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E0B24E76-337C-02B0-31BB-0A45184AD78B" containerWithKeyObject="A64D0CC8-340D-A276-E7B9-978D34F2BD5E" localFKIndex="2321EB30-9713-B177-46D2-AC781A45B6E4" name="FK_FUNCIONARIO_FONE">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:51 UTC</createdTime>
+<generatorID>A8ED08D0-23E7-2FAE-A541-8B4B4F81E99B</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<referredTableLongName>T_SCP_FUNCIONARIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>085FA592-3DB2-3F8B-F114-E8B2EE5F2327</referredTableID>
+<keyObject>0A6EB07C-737D-DB8F-2B3A-B3D14433153F</keyObject>
+<referredKeyID>0A6EB07C-737D-DB8F-2B3A-B3D14433153F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_funcionario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

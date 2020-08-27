@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6AECD58-7A9B-E039-A6DD-8D2C43D13704" name="T_SCP_ENDERECO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-24 18:43:37 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_cep" id="BF72C4A2-9ED6-F1CD-34E3-6B0635DCFA98">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 17:12:54 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_bairro" id="BC2FC086-32FB-45A5-DEC8-CEBFC2EA0CF3">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 17:15:58 UTC</createdTime>
+<generatorID>760ED49A-B8A5-F1E5-1AD4-489F2E060D92</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<referedAttribute>24786CF4-8995-25C1-0F67-493DD54B405C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_tipo_logradouro" id="F8EC2DDA-C363-DCCD-33B9-5B7041F60DA3">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 17:17:35 UTC</createdTime>
+<generatorID>7FAD2CB9-09B3-21B7-E50C-FE02338C8539</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<referedAttribute>7CDF21F5-BAD0-3712-9FE0-BCD84C262BBF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_logradouro" id="4DDF224C-EF42-1A54-C51F-844F35BC15B1">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 17:14:52 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9AE10D8B-B027-D025-69AE-C99F197FBDCA" name="PK_SCP_ENDERECO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 17:13:13 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>BF72C4A2-9ED6-F1CD-34E3-6B0635DCFA98</newElementsIDs>
+<usedAttributes>
+<attributeRef>BF72C4A2-9ED6-F1CD-34E3-6B0635DCFA98</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

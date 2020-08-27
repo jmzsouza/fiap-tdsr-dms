@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4FB7EC48-557F-2C16-A084-4F04F07EDBA2" name="T_PROJ_PAPEL_PROJ">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 16:08:16 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_projeto" id="27C2E638-D646-31FA-CD06-C91BF5D57B29">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 18:12:30 UTC</createdTime>
+<generatorID>151A29A2-CFC0-D2C2-E63E-6CEBBBEBC9CC</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<referedAttribute>5554E560-7ED2-81C2-7140-1F6C72DD3AA4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_papel_projeto" id="F10A630D-C737-50DF-A14F-168D297BADAF">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 18:12:56 UTC</createdTime>
+<generatorID>F7D1CB25-C961-D1E2-E85E-5C6E6EA423A2</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<referedAttribute>FD825D42-E516-0539-66B3-0E4AE9C69029</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio_papel_proj" id="F42F2245-2670-34D4-3771-4EBBE444B1D8">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 18:15:01 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_fim_papel_proj" id="5CC2C9D3-312F-F25C-2B6E-689CEB27D165">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 18:15:15 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="27F25636-9C04-5447-0FD5-9A52C9C65038" name="PK_PROJ_PAPEL_PROJ">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 18:12:30 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>151A29A2-CFC0-D2C2-E63E-6CEBBBEBC9CC,F7D1CB25-C961-D1E2-E85E-5C6E6EA423A2</newElementsIDs>
+<usedAttributes>
+<attributeRef>27C2E638-D646-31FA-CD06-C91BF5D57B29</attributeRef>
+<attributeRef>F10A630D-C737-50DF-A14F-168D297BADAF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_TIPO_FONE_FUNC" directorySegmentName="seg_0" id="64CF71AA-40C1-0948-BBF1-C067D3BE220F">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 17:44:03 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<sourcePk>FF66787D-E86C-28F1-A327-DDD522552D24</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4E488B76-7CC8-C876-6DE4-E7ACEAB92E0D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7ABEDB9A-DF52-57C2-B74C-ABACFEFAC9BE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

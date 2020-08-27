@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="694510BB-B191-14B4-8970-2DD0C1F9C103" name="T_SCP_DEPARTAMENTO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>D242B426-7180-E394-93C8-DAA7264B2292</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_departamento" id="900A98B5-FF85-28E4-3D26-819F77B649D2">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>D9D654CE-5802-82DE-C8EE-F203E15DDED6</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_funcionario" id="1E7E68E8-A3A3-FCA7-B5C5-22B493215219">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>866F195C-E868-18F7-EDFE-D6D6DDDA6F0B</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A5BF475-AF13-5B21-0250-575E60B06484" referredColumn="285D5C24-7394-B7B8-A0C4-8E46CBEAD25F"/>
+</associations>
+</Column>
+<Column name="nm_departamento" id="ED530EFE-A5F3-BF97-8699-3F48065D938C">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>7E0D8B68-725E-4364-EA49-BE5226166558</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="71F2039A-C99A-8668-B5EB-77B09A458C8A" name="PK_SCP_DEPARTAMENTO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>8CC345FC-F54A-B6AD-758B-89250BFAE181</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="900A98B5-FF85-28E4-3D26-819F77B649D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BBBDC30-3D41-A075-208F-D22E8921BCB2" name="FK_FUNC_DEPARTAMENTO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:51 UTC</createdTime>
+<generatorID>A16F0ED6-AD08-D4AE-3861-69A32D04CDA0</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E7E68E8-A3A3-FCA7-B5C5-22B493215219"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

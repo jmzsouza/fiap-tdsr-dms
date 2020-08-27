@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FDE456ED-404D-BC8D-D9F7-69F5E88AFD55" name="T_PROJ_PAPEL_PROJ">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>4FB7EC48-557F-2C16-A084-4F04F07EDBA2</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_projeto" id="3366242E-E449-C495-D885-43EB141DA44C">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>27C2E638-D646-31FA-CD06-C91BF5D57B29</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A15DC2EE-E074-7872-2F5A-2831E1A33385" referredColumn="0007CA0D-F104-70F6-861F-6F22756AF235"/>
+</associations>
+</Column>
+<Column name="cd_papel_projeto" id="771CD56B-40A6-853B-1372-7C23D5BB60FE">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>F10A630D-C737-50DF-A14F-168D297BADAF</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8BE6E7BC-68B8-DAD6-CF7D-DFFAF4CF0DEA" referredColumn="D375A6BF-7B1A-7E2E-60A6-5AC6DBA2CE8F"/>
+</associations>
+</Column>
+<Column name="dt_inicio_papel_proj" id="B79B3305-01A1-40DB-9339-59372CEEFBB6">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>F42F2245-2670-34D4-3771-4EBBE444B1D8</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_fim_papel_proj" id="CF49F7AD-B2D3-E08E-6D0F-CA2C81AEF17E">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>5CC2C9D3-312F-F25C-2B6E-689CEB27D165</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="260FA6B0-AFA3-2DC4-23B2-A4E270F2E84F" name="PK_PROJ_PAPEL_PROJ">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>27F25636-9C04-5447-0FD5-9A52C9C65038</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3366242E-E449-C495-D885-43EB141DA44C"/>
+<colUsage columnID="771CD56B-40A6-853B-1372-7C23D5BB60FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B0CCADF4-616A-7E17-89C3-753BEEAD2750" name="FK_PAPEL_PROJETO_PROJ">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:51 UTC</createdTime>
+<generatorID>F7D1CB25-C961-D1E2-E85E-5C6E6EA423A2</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="771CD56B-40A6-853B-1372-7C23D5BB60FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D42660C7-042A-BACE-AC11-66CF8E702436" name="FK_PROJETO_PAPEL_PROJ">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:51 UTC</createdTime>
+<generatorID>151A29A2-CFC0-D2C2-E63E-6CEBBBEBC9CC</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3366242E-E449-C495-D885-43EB141DA44C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

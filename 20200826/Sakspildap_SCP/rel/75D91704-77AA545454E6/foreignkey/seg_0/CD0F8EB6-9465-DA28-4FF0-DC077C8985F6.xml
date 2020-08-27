@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CD0F8EB6-9465-DA28-4FF0-DC077C8985F6" containerWithKeyObject="3CD212E6-267F-B646-AF11-5322C183FCEB" localFKIndex="8BEF3F09-4538-03B5-1250-C071172917FA" name="FK_LOGRADOURO_ENDERECO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:51 UTC</createdTime>
+<generatorID>7FAD2CB9-09B3-21B7-E50C-FE02338C8539</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<referredTableLongName>T_SCP_TIPO_LOGRADOURO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>65693491-1CA9-76E2-A023-43DF83B98A38</referredTableID>
+<keyObject>2F4FD446-22ED-389B-B641-D34C089A8D91</keyObject>
+<referredKeyID>2F4FD446-22ED-389B-B641-D34C089A8D91</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_tipo_logradouro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

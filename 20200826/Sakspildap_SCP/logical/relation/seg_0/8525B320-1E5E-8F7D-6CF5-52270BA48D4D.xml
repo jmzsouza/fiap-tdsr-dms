@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_PAPEL_PROJETO_FUNC" directorySegmentName="seg_0" id="8525B320-1E5E-8F7D-6CF5-52270BA48D4D">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 18:00:52 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<sourcePk>026894F2-6045-BF1D-B593-D5A4CC7B6AC7</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4DBDA809-AAE0-CF48-737B-A10D95C0FE84</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A0C2A50B-5514-050A-0675-5A348984D772</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

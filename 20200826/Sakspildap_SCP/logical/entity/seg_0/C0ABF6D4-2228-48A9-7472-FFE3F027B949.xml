@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C0ABF6D4-2228-48A9-7472-FFE3F027B949" name="T_SCP_TIPO_ENDERECO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-24 18:43:49 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_tipo_endereco" id="1282B018-A83E-8288-3CFA-62C7FC213563">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 17:20:37 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_tipo_endereco" id="C886E323-A7BC-1C41-AD6B-F17663AD0653">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 17:21:03 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2B240BB4-A8B5-83BB-55BB-A34FD8904ADB" name="PK_SCP_TIPO_ENDERECO">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 17:20:57 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>1282B018-A83E-8288-3CFA-62C7FC213563</newElementsIDs>
+<usedAttributes>
+<attributeRef>1282B018-A83E-8288-3CFA-62C7FC213563</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

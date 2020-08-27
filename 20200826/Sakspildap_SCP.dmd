@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Sakspildap_SCP" id="76E82A97-FA8E-035C-AAA7-802ED59A1E04" version="3.5">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-24 14:46:34 UTC</createdTime>
+<ownerDesignName>SGP</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>76E82A97-FA8E-035C-AAA7-802ED59A1E04</designId>
+</OSDM_Design>

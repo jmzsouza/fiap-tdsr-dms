@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A64D0CC8-340D-A276-E7B9-978D34F2BD5E" name="T_SCP_FUNC_FONE">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>7ABEDB9A-DF52-57C2-B74C-ABACFEFAC9BE</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_funcionario" id="A8129275-0F0C-9002-9FA6-343BF37C8C31">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>9AF99815-BB39-B828-64AF-DB7385FF930B</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0B24E76-337C-02B0-31BB-0A45184AD78B" referredColumn="285D5C24-7394-B7B8-A0C4-8E46CBEAD25F"/>
+</associations>
+</Column>
+<Column name="nr_ddd" id="E56D5E84-F9F6-8E34-BA59-C3220DDBB9C8">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>3A1D12A9-28FB-F7EF-B975-69035557D6E8</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_telefone" id="1ABC18A3-694F-6A38-26A3-0709473621B3">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>2201E204-01C3-DEEC-CD42-79987170DE1F</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_tipo_fone" id="C73CE877-C6BA-7168-A127-5EA5495985A6">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>6F867DE7-D348-C996-57E2-ED36C7358063</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B071457-80E4-A0CE-5805-898CF4F32B5C" referredColumn="8BCE97A5-CA95-2EB4-B9EB-9DDD597F0855"/>
+</associations>
+</Column>
+<Column name="nr_ramal" id="E68DFF2C-B502-6D09-91D6-E5E9F7341207">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>94702206-285F-6772-A9F1-BF2B50E0160E</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3ADFDCBF-2105-0CAC-ABD9-82A93F1D421B" name="PK_SCP_FUNC_FONE">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:50 UTC</createdTime>
+<generatorID>1121019B-9BA1-E2D3-E0C1-DEB7FA153E63</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E56D5E84-F9F6-8E34-BA59-C3220DDBB9C8"/>
+<colUsage columnID="1ABC18A3-694F-6A38-26A3-0709473621B3"/>
+<colUsage columnID="A8129275-0F0C-9002-9FA6-343BF37C8C31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2321EB30-9713-B177-46D2-AC781A45B6E4" name="FK_FUNCIONARIO_FONE">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:51 UTC</createdTime>
+<generatorID>A8ED08D0-23E7-2FAE-A541-8B4B4F81E99B</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8129275-0F0C-9002-9FA6-343BF37C8C31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A38E73C-DAB8-7000-0987-9734817F7372" name="FK_TIPO_FONE_FUNC">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-26 03:22:51 UTC</createdTime>
+<generatorID>64CF71AA-40C1-0948-BBF1-C067D3BE220F</generatorID>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C73CE877-C6BA-7168-A127-5EA5495985A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

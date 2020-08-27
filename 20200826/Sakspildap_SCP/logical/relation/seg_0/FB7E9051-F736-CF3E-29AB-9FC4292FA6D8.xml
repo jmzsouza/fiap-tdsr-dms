@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="R_DEPTO_IMPLANTACAO" directorySegmentName="seg_0" id="FB7E9051-F736-CF3E-29AB-9FC4292FA6D8">
+<createdBy>jonasmuniz</createdBy>
+<createdTime>2020-08-25 18:24:21 UTC</createdTime>
+<ownerDesignName>Sakspildap_SCP</ownerDesignName>
+<engineerTo>
+<item key="75D91704-715B-53FC-29E0-77AA545454E6" value="true"/>
+</engineerTo>
+<sourcePk>8CC345FC-F54A-B6AD-758B-89250BFAE181</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D242B426-7180-E394-93C8-DAA7264B2292</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D185532C-E619-DF9D-921C-21C534711752</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
